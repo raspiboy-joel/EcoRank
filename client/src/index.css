@@ -1,0 +1,90 @@
+/* =====================================================================
+   ESTILOS GLOBALES DE ECORANK
+   ---------------------------------------------------------------------
+   Usamos Tailwind CSS. Aquí definimos la base (fondo, tipografía) y
+   clases reutilizables (.btn-primary, .card, .input...) con su versión
+   para MODO OSCURO (variantes dark:), para que toda la página se vea
+   consistente en ambos temas.
+   ===================================================================== */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-gray-50 font-sans text-gray-900 antialiased transition-colors duration-300 dark:bg-gray-950 dark:text-gray-100;
+  }
+  /* Color al seleccionar texto: un toque verde de la marca */
+  ::selection {
+    @apply bg-eco-light text-eco-deep;
+  }
+}
+
+@layer components {
+  /* ---------- Botón principal (verde) ---------- */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-eco px-7 py-3.5 text-base font-semibold text-white shadow-eco transition-all duration-200 hover:-translate-y-0.5 hover:bg-eco-dark active:translate-y-0 active:scale-95 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0;
+  }
+
+  /* ---------- Botón secundario (blanco / gris oscuro) ---------- */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 text-base font-semibold text-gray-900 shadow-sm ring-1 ring-gray-200 transition-all duration-200 hover:-translate-y-0.5 hover:ring-gray-300 active:translate-y-0 active:scale-95 dark:bg-gray-900 dark:text-gray-100 dark:ring-gray-700 dark:hover:ring-gray-500;
+  }
+
+  /* ---------- Botón pequeño y discreto ---------- */
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-full px-4 py-2 text-sm font-semibold text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white;
+  }
+
+  /* ---------- Botón de peligro (eliminar, reiniciar) ---------- */
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-full bg-red-50 px-4 py-2 text-sm font-semibold text-red-600 ring-1 ring-red-100 transition-colors hover:bg-red-100 dark:bg-red-500/10 dark:text-red-400 dark:ring-red-500/20 dark:hover:bg-red-500/20;
+  }
+
+  /* ---------- Tarjeta con sombra suave ---------- */
+  .card {
+    @apply rounded-3xl bg-white p-6 shadow-soft ring-1 ring-gray-100 transition-colors duration-300 dark:bg-gray-900 dark:ring-gray-800;
+  }
+
+  /* ---------- Campo de formulario (input y select) ---------- */
+  .input {
+    @apply w-full rounded-2xl border border-gray-200 bg-white px-4 py-3.5 text-base text-gray-900 outline-none transition placeholder:text-gray-400 focus:border-eco focus:ring-4 focus:ring-eco/15 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 dark:placeholder:text-gray-500;
+  }
+
+  /* ---------- Etiqueta de formulario ---------- */
+  .label {
+    @apply mb-1.5 block text-sm font-semibold text-gray-700 dark:text-gray-300;
+  }
+
+  /* ---------- "Eyebrow": texto pequeño verde sobre los títulos ---------- */
+  .eyebrow {
+    @apply mb-3 inline-flex items-center gap-2 rounded-full bg-eco-light px-3.5 py-1.5 text-xs font-bold uppercase tracking-widest text-eco-deep dark:bg-eco/15 dark:text-eco;
+  }
+
+  /* ---------- Pestañas (Ranking: Estudiantes / Salones) ---------- */
+  .tab {
+    @apply rounded-full px-5 py-2.5 text-sm font-semibold text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white;
+  }
+  .tab-active {
+    @apply bg-gray-900 text-white hover:bg-gray-900 hover:text-white dark:bg-white dark:text-gray-900 dark:hover:bg-white dark:hover:text-gray-900;
+  }
+
+  /* ---------- Chip pequeño (salón, id, etiquetas) ---------- */
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full bg-gray-100 px-2.5 py-1 text-xs font-semibold text-gray-600 dark:bg-gray-800 dark:text-gray-300;
+  }
+}
+
+/* Respeto por quienes prefieren menos movimiento en pantalla */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

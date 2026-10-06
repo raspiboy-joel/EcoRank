@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoRank — Recicla, suma puntos, lidera</title>
+    <meta name="description" content="EcoRank: escanea tu QR, selecciona el tipo de residuo, suma puntos y compite con tu salón por el primer lugar." />
+    <!-- Ícono de la pestaña (un emoji de reciclaje en formato SVG) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>♻️</text></svg>" />
+    <!-- Tipografías: Space Grotesk (títulos) + Inter (texto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <!--
+      Anti-parpadeo del modo oscuro: aplicamos el tema guardado ANTES de
+      que React cargue, para que la página nunca "destelle" en blanco.
+    -->
+    <script>
+      try {
+        var guardado = localStorage.getItem('ecorank_tema')
+        var prefiereOscuro = window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (guardado === 'oscuro' || (!guardado && prefiereOscuro)) {
+          document.documentElement.classList.add('dark')
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <!-- React "monta" toda la aplicación dentro de este div -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

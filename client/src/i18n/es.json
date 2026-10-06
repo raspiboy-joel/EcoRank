@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "inicio": "Inicio",
+    "comoUsar": "¿Cómo usar?",
+    "ranking": "Ranking",
+    "impacto": "Impacto",
+    "miQR": "Mi QR",
+    "admin": "Admin",
+    "abrirMenu": "Abrir menú",
+    "cerrarMenu": "Cerrar menú",
+    "cambiarTema": "Cambiar tema",
+    "modoClaro": "Modo claro",
+    "modoOscuro": "Modo oscuro"
+  },
+  "comun": {
+    "cargando": "Cargando…",
+    "puntos": "Puntos",
+    "pts": "pts",
+    "estudiantes": "Estudiantes",
+    "estudiante": "Estudiante",
+    "salon": "Salón",
+    "lista": "Lista",
+    "numeroLista": "N.º de lista",
+    "promedio": "Promedio",
+    "residuos": "Residuos",
+    "posicion": "Posición",
+    "todos": "Todos",
+    "cerrar": "Cerrar",
+    "guardar": "Guardar cambios",
+    "cancelar": "Cancelar",
+    "actualizaAuto": "Se actualiza automáticamente",
+    "delTotal": "del total",
+    "verRanking": "Ver Ranking",
+    "generarQR": "Generar mi QR",
+    "errorConexion": "No se pudo conectar con el servidor.",
+    "noHayDatos": "Aún no hay datos. ¡Sé el primero en reciclar! ♻️"
+  },
+  "materiales": {
+    "plastico": {
+      "nombre": "Plástico",
+      "ejemplos": "Botellas, tapas, envases"
+    },
+    "papel": {
+      "nombre": "Papel y Cartón",
+      "ejemplos": "Hojas, cajas, cuadernos"
+    },
+    "organico": {
+      "nombre": "Orgánico",
+      "ejemplos": "Restos de comida, frutas, vegetales"
+    }
+  },
+  "home": {
+    "eyebrow": "Proyecto escolar de reciclaje",
+    "titulo1": "Recicla.",
+    "titulo2": "Suma puntos.",
+    "titulo3": "Lidera el ranking.",
+    "descripcion": "EcoRank es un sistema inteligente de reciclaje que promueve hábitos ambientales responsables mediante códigos QR, un sistema de puntos y un ranking entre estudiantes.",
+    "notaSeleccion": "Tú eliges el tipo de residuo al depositarlo: el sistema identifica quién eres con tu QR y suma tus puntos al instante.",
+    "pasosTitulo": "Así de fácil",
+    "pasosSub": "Cuatro pasos y ya estás compitiendo.",
+    "verGuia": "Ver la guía completa",
+    "categoriasTitulo": "Categorías y puntos",
+    "categoriasSub": "Tres categorías, tres compartimientos. Cada una vale puntos distintos.",
+    "ctaTitulo": "Tu QR es tu llave",
+    "ctaTexto": "Genérala una vez, úsala siempre. Escanea, selecciona, deposita y sube en el ranking.",
+    "ctaBoton": "Crear mi QR ahora"
+  },
+  "pasos": {
+    "1": {
+      "titulo": "Escanea tu código QR",
+      "texto": "Acércalo al lector del basurero: el sistema te identifica automáticamente."
+    },
+    "2": {
+      "titulo": "Selecciona el tipo de residuo",
+      "texto": "Elige manualmente si es plástico, papel y cartón, u orgánico."
+    },
+    "3": {
+      "titulo": "Deposita el residuo",
+      "texto": "Colócalo en el compartimiento correspondiente a su categoría."
+    },
+    "4": {
+      "titulo": "Recibe tus puntos",
+      "texto": "El sistema los suma automáticamente y tu posición en el ranking mejora."
+    }
+  },
+  "comoUsar": {
+    "eyebrow": "Guía rápida",
+    "titulo": "¿Cómo usar EcoRank?",
+    "sub": "En cuatro pasos estás reciclando y sumando puntos para ti y para tu salón.",
+    "paso": "Paso",
+    "tablaTitulo": "Clasificación de residuos",
+    "tablaSub": "Estas son las tres categorías oficiales del proyecto.",
+    "colTipo": "Tipo",
+    "colEjemplos": "Ejemplos",
+    "colPuntos": "Puntos",
+    "logrosTitulo": "Logros e insignias",
+    "logrosSub": "Recicla con constancia y desbloquéalas en tu perfil.",
+    "listo": "¿Todo claro?"
+  },
+  "registro": {
+    "eyebrow": "Registro",
+    "titulo": "Genera tu QR permanente",
+    "sub": "Solo necesitas tres datos. Tu QR será siempre el mismo mientras estés en el sistema.",
+    "nombre": "Nombre completo",
+    "nombrePh": "Ej: Ana María Pérez",
+    "listaLbl": "Número de lista",
+    "listaPh": "Ej: 24",
+    "salonLbl": "Salón",
+    "salonPh": "Ej: 10° A",
+    "boton": "Generar QR",
+    "generando": "Generando…",
+    "notaPie": "Si ya te registraste antes, escribe exactamente el mismo nombre y número de lista y te mostraremos tu QR original.",
+    "exitoNuevo": "🎉 ¡Registro exitoso! Este es tu QR permanente.",
+    "exitoExistente": "👋 ¡Ya estabas registrado! Este es tu QR de siempre (no se creó uno nuevo).",
+    "verPerfil": "Ver mi perfil",
+    "salonAyuda": "Escribe tu salón tal como se llama en tu escuela."
+  },
+  "qr": {
+    "carne": "Carné de reciclador",
+    "generando": "Generando QR…",
+    "alt": "Código QR de {{nombre}}",
+    "permanente": "Este QR es permanente. Guárdalo: es tu llave para reciclar.",
+    "descargar": "Descargar PNG",
+    "imprimir": "Imprimir",
+    "notaImpresion": "♻️ EcoRank — Muestra este QR al escáner del basurero"
+  },
+  "ranking": {
+    "eyebrow": "Clasificación en vivo",
+    "titulo": "Ranking",
+    "sub": "Puntos acumulados por reciclar. ¡Cada residuo cuenta!",
+    "buscarPh": "Buscar por nombre o n.º de lista…",
+    "ordenar": "Ordenar",
+    "orden": {
+      "puntosDesc": "Mayor puntaje",
+      "puntosAsc": "Menor puntaje",
+      "nombre": "Nombre (A–Z)",
+      "lista": "N.º de lista"
+    },
+    "vacio": "Aún no hay estudiantes registrados. ¡Sé el primero!",
+    "sinResultados": "Ningún estudiante coincide con tu búsqueda.",
+    "subio": "Subió de posición",
+    "bajo": "Bajó de posición",
+    "filtroSalonTodos": "Todos los salones"
+  },
+  "impacto": {
+    "eyebrow": "Dashboard",
+    "titulo": "Impacto Ambiental",
+    "sub": "El efecto real del reciclaje del salón, medido en vivo.",
+    "totalResiduos": "Residuos reciclados",
+    "estudiantesReg": "Estudiantes registrados",
+    "totalPuntos": "Puntos acumulados",
+    "promedioEst": "Promedio por estudiante",
+    "lider": "Estudiante líder",
+    "sinLider": "Aún nadie",
+    "categoriasTitulo": "Por categoría",
+    "registrados": "registrados",
+    "graficos": {
+      "distribucion": "Distribución de residuos",
+      "puntosCategoria": "Puntos por categoría",
+      "evolucion": "Evolución del reciclaje (últimos 14 días)",
+      "cantidad": "Residuos",
+      "puntos": "Puntos"
+    }
+  },
+  "logros": {
+    "titulo": "Logros",
+    "desbloqueado": "¡Desbloqueado!",
+    "bloqueado": "Bloqueado",
+    "lista": {
+      "primer_reciclaje": {
+        "nombre": "Primer reciclaje",
+        "desc": "Registra tu primer residuo."
+      },
+      "puntos_100": {
+        "nombre": "100 puntos",
+        "desc": "Acumula 100 puntos."
+      },
+      "puntos_500": {
+        "nombre": "500 puntos",
+        "desc": "Acumula 500 puntos."
+      },
+      "residuos_50": {
+        "nombre": "50 residuos",
+        "desc": "Recicla 50 residuos."
+      },
+      "eco_heroe": {
+        "nombre": "Eco Héroe",
+        "desc": "Alcanza 1000 puntos. ¡Leyenda!"
+      }
+    }
+  },
+  "perfil": {
+    "noEncontrado": "No encontramos ese estudiante.",
+    "volver": "Volver al inicio",
+    "miGrafico": "Mi reciclaje por categoría",
+    "sinGrafico": "Cuando recicles, aquí verás tu gráfico personal.",
+    "historial": "Historial de reciclaje",
+    "historialVacio": "Todavía no has reciclado. ¡Tu primer residuo te espera!",
+    "residuosReciclados": "Residuos reciclados"
+  },
+  "admin": {
+    "titulo": "Panel de Administración",
+    "loginSub": "Ingresa la contraseña para administrar EcoRank.",
+    "password": "Contraseña",
+    "entrar": "Entrar",
+    "verificando": "Verificando…",
+    "salir": "Salir",
+    "exportCSV": "CSV",
+    "exportExcel": "Excel",
+    "exportPDF": "PDF",
+    "reiniciar": "Reiniciar ranking",
+    "reiniciarConfirm": "¿Seguro? Todos los puntos volverán a 0 y se borrará el historial. Los estudiantes y sus QR se conservan.",
+    "reiniciado": "Ranking reiniciado: todos los puntos están en 0.",
+    "eliminarConfirm": "¿Eliminar a {{nombre}}? Esta acción no se puede deshacer.",
+    "guardado": "Cambios guardados.",
+    "statsTitulo": "Estadísticas generales",
+    "buscarPh": "Filtrar por nombre, salón o n.º…",
+    "sinResultados": "Sin resultados.",
+    "vacio": "No hay estudiantes registrados todavía.",
+    "editar": "Editar",
+    "eliminar": "Eliminar",
+    "editarTitulo": "Editar estudiante",
+    "registro": "Registro",
+    "reciclajes": "Reciclajes",
+    "acciones": "Acciones",
+    "id": "ID",
+    "nombre": "Nombre",
+    "pdfTitulo": "EcoRank — Reporte de estadísticas",
+    "pdfGeneradoEl": "Generado el",
+    "pdfGeneral": "Estadísticas generales",
+    "pdfCategorias": "Por categoría",
+    "pdfCantidad": "Cantidad",
+    "filtroSalonTodos": "Todos los salones",
+    "pdfEstudiantes": "Estudiantes"
+  },
+  "footer": {
+    "linea1": "Proyecto escolar de reciclaje",
+    "linea2": "Hecho con 💚 por estudiantes"
+  },
+  "notFound": "Esta página no existe."
+}

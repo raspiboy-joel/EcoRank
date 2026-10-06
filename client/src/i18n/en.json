@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "comoUsar": "How to use",
+    "ranking": "Ranking",
+    "impacto": "Impact",
+    "miQR": "My QR",
+    "admin": "Admin",
+    "abrirMenu": "Open menu",
+    "cerrarMenu": "Close menu",
+    "cambiarTema": "Toggle theme",
+    "modoClaro": "Light mode",
+    "modoOscuro": "Dark mode"
+  },
+  "comun": {
+    "cargando": "Loading…",
+    "puntos": "Points",
+    "pts": "pts",
+    "estudiantes": "Students",
+    "estudiante": "Student",
+    "salon": "Class",
+    "lista": "List",
+    "numeroLista": "List number",
+    "promedio": "Average",
+    "residuos": "Items",
+    "posicion": "Position",
+    "todos": "All",
+    "cerrar": "Close",
+    "guardar": "Save changes",
+    "cancelar": "Cancel",
+    "actualizaAuto": "Updates automatically",
+    "delTotal": "of total",
+    "verRanking": "View Ranking",
+    "generarQR": "Generate my QR",
+    "errorConexion": "Could not connect to the server.",
+    "noHayDatos": "No data yet. Be the first to recycle! ♻️"
+  },
+  "materiales": {
+    "plastico": {
+      "nombre": "Plastic",
+      "ejemplos": "Bottles, caps, containers"
+    },
+    "papel": {
+      "nombre": "Paper & Cardboard",
+      "ejemplos": "Sheets, boxes, notebooks"
+    },
+    "organico": {
+      "nombre": "Organic",
+      "ejemplos": "Food scraps, fruits, vegetables"
+    }
+  },
+  "home": {
+    "eyebrow": "School recycling project",
+    "titulo1": "Recycle.",
+    "titulo2": "Earn points.",
+    "titulo3": "Lead the ranking.",
+    "descripcion": "EcoRank is a smart recycling system that promotes responsible environmental habits through QR codes, a points system, and a student ranking.",
+    "notaSeleccion": "You choose the waste type when you drop it off: the system identifies you with your QR and adds your points instantly.",
+    "pasosTitulo": "It's this easy",
+    "pasosSub": "Four steps and you're competing.",
+    "verGuia": "See the full guide",
+    "categoriasTitulo": "Categories & points",
+    "categoriasSub": "Three categories, three compartments. Each one is worth different points.",
+    "ctaTitulo": "Your QR is your key",
+    "ctaTexto": "Generate it once, use it forever. Scan, select, drop it in and climb the ranking.",
+    "ctaBoton": "Create my QR now"
+  },
+  "pasos": {
+    "1": {
+      "titulo": "Scan your QR code",
+      "texto": "Hold it up to the bin's reader: the system identifies you automatically."
+    },
+    "2": {
+      "titulo": "Select the waste type",
+      "texto": "Manually choose plastic, paper & cardboard, or organic."
+    },
+    "3": {
+      "titulo": "Drop in the item",
+      "texto": "Place it in the compartment that matches its category."
+    },
+    "4": {
+      "titulo": "Get your points",
+      "texto": "The system adds them automatically and your ranking position improves."
+    }
+  },
+  "comoUsar": {
+    "eyebrow": "Quick guide",
+    "titulo": "How to use EcoRank?",
+    "sub": "In four steps you're recycling and earning points for you and your class.",
+    "paso": "Step",
+    "tablaTitulo": "Waste classification",
+    "tablaSub": "These are the project's three official categories.",
+    "colTipo": "Type",
+    "colEjemplos": "Examples",
+    "colPuntos": "Points",
+    "logrosTitulo": "Achievements & badges",
+    "logrosSub": "Recycle consistently and unlock them on your profile.",
+    "listo": "All clear?"
+  },
+  "registro": {
+    "eyebrow": "Sign up",
+    "titulo": "Generate your permanent QR",
+    "sub": "You only need three things. Your QR will always be the same while you're in the system.",
+    "nombre": "Full name",
+    "nombrePh": "E.g.: Ana María Pérez",
+    "listaLbl": "List number",
+    "listaPh": "E.g.: 24",
+    "salonLbl": "Class",
+    "salonPh": "E.g.: 10° A",
+    "boton": "Generate QR",
+    "generando": "Generating…",
+    "notaPie": "If you already signed up before, type exactly the same name and list number and we'll show you your original QR.",
+    "exitoNuevo": "🎉 Success! This is your permanent QR.",
+    "exitoExistente": "👋 You were already registered! This is your usual QR (no new one was created).",
+    "verPerfil": "View my profile",
+    "salonAyuda": "Type your classroom exactly as it is named at your school."
+  },
+  "qr": {
+    "carne": "Recycler ID card",
+    "generando": "Generating QR…",
+    "alt": "{{nombre}}'s QR code",
+    "permanente": "This QR is permanent. Keep it: it's your key to recycle.",
+    "descargar": "Download PNG",
+    "imprimir": "Print",
+    "notaImpresion": "♻️ EcoRank — Show this QR to the bin scanner"
+  },
+  "ranking": {
+    "eyebrow": "Live standings",
+    "titulo": "Ranking",
+    "sub": "Points earned by recycling. Every item counts!",
+    "buscarPh": "Search by name or list number…",
+    "ordenar": "Sort",
+    "orden": {
+      "puntosDesc": "Highest score",
+      "puntosAsc": "Lowest score",
+      "nombre": "Name (A–Z)",
+      "lista": "List number"
+    },
+    "vacio": "No students registered yet. Be the first!",
+    "sinResultados": "No students match your search.",
+    "subio": "Moved up",
+    "bajo": "Moved down",
+    "filtroSalonTodos": "All classrooms"
+  },
+  "impacto": {
+    "eyebrow": "Dashboard",
+    "titulo": "Environmental Impact",
+    "sub": "The real effect of the class's recycling, measured live.",
+    "totalResiduos": "Items recycled",
+    "estudiantesReg": "Registered students",
+    "totalPuntos": "Total points",
+    "promedioEst": "Average per student",
+    "lider": "Leading student",
+    "sinLider": "No one yet",
+    "categoriasTitulo": "By category",
+    "registrados": "logged",
+    "graficos": {
+      "distribucion": "Waste distribution",
+      "puntosCategoria": "Points by category",
+      "evolucion": "Recycling over time (last 14 days)",
+      "cantidad": "Items",
+      "puntos": "Points"
+    }
+  },
+  "logros": {
+    "titulo": "Achievements",
+    "desbloqueado": "Unlocked!",
+    "bloqueado": "Locked",
+    "lista": {
+      "primer_reciclaje": {
+        "nombre": "First recycling",
+        "desc": "Log your first item."
+      },
+      "puntos_100": {
+        "nombre": "100 points",
+        "desc": "Earn 100 points."
+      },
+      "puntos_500": {
+        "nombre": "500 points",
+        "desc": "Earn 500 points."
+      },
+      "residuos_50": {
+        "nombre": "50 items",
+        "desc": "Recycle 50 items."
+      },
+      "eco_heroe": {
+        "nombre": "Eco Hero",
+        "desc": "Reach 1000 points. Legend!"
+      }
+    }
+  },
+  "perfil": {
+    "noEncontrado": "We couldn't find that student.",
+    "volver": "Back to home",
+    "miGrafico": "My recycling by category",
+    "sinGrafico": "Once you recycle, your personal chart will appear here.",
+    "historial": "Recycling history",
+    "historialVacio": "You haven't recycled yet. Your first item awaits!",
+    "residuosReciclados": "Items recycled"
+  },
+  "admin": {
+    "titulo": "Admin Panel",
+    "loginSub": "Enter the password to manage EcoRank.",
+    "password": "Password",
+    "entrar": "Sign in",
+    "verificando": "Checking…",
+    "salir": "Sign out",
+    "exportCSV": "CSV",
+    "exportExcel": "Excel",
+    "exportPDF": "PDF",
+    "reiniciar": "Reset ranking",
+    "reiniciarConfirm": "Are you sure? All points go back to 0 and the history is cleared. Students and their QRs are kept.",
+    "reiniciado": "Ranking reset: all points are back to 0.",
+    "eliminarConfirm": "Delete {{nombre}}? This cannot be undone.",
+    "guardado": "Changes saved.",
+    "statsTitulo": "Overview",
+    "buscarPh": "Filter by name, class or number…",
+    "sinResultados": "No results.",
+    "vacio": "No students registered yet.",
+    "editar": "Edit",
+    "eliminar": "Delete",
+    "editarTitulo": "Edit student",
+    "registro": "Registered",
+    "reciclajes": "Recyclings",
+    "acciones": "Actions",
+    "id": "ID",
+    "nombre": "Name",
+    "pdfTitulo": "EcoRank — Statistics report",
+    "pdfGeneradoEl": "Generated on",
+    "pdfGeneral": "Overview",
+    "pdfCategorias": "By category",
+    "pdfCantidad": "Count",
+    "filtroSalonTodos": "All classrooms",
+    "pdfEstudiantes": "Students"
+  },
+  "footer": {
+    "linea1": "School recycling project",
+    "linea2": "Made with 💚 by students"
+  },
+  "notFound": "This page doesn't exist."
+}
