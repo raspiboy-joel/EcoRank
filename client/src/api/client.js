@@ -1,28 +1,31 @@
 // =====================================================================
 //  CLIENTE DE LA API
 // ---------------------------------------------------------------------
-//  Funciones para hablar con el servidor. Todas las páginas usan esto
-//  en lugar de escribir fetch() a mano, así el código queda ordenado.
+//  Funciones para hablar con el servidor de EcoRank.
 // =====================================================================
 
+const API_URL = 'https://ecorank-y8hk.onrender.com'
+
 // Llama a la API y devuelve la respuesta en JSON.
-// Si el servidor responde con error, lanzamos una excepción con el mensaje.
 export async function api(ruta, opciones = {}) {
-  const respuesta = await fetch(`/api${ruta}`, {
-    headers: { 'Content-Type': 'application/json', ...(opciones.headers || {}) },
+  const respuesta = await fetch(`${API_URL}/api${ruta}`, {
+    headers: {
+      'Content-Type': 'application/json',
+      ...(opciones.headers || {})
+    },
     ...opciones
   })
 
   const datos = await respuesta.json().catch(() => ({}))
+
   if (!respuesta.ok) {
     throw new Error(datos.error || 'No se pudo conectar con el servidor.')
   }
+
   return datos
 }
 
 // --- Utilidades del modo administrador -------------------------------
-// La contraseña se guarda en sessionStorage (se borra al cerrar la pestaña)
-// y se envía en cada petición del panel dentro del header x-admin-password.
 
 const CLAVE_SESION = 'ecorank_admin_password'
 
@@ -41,3 +44,4 @@ export function cerrarSesionAdmin() {
 export function headersAdmin() {
   return { 'x-admin-password': obtenerClaveAdmin() }
 }
+
